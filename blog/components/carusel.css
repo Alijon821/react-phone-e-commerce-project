@@ -1,0 +1,90 @@
+  .slick-slide img {
+    margin: auto;
+  }
+
+.zz{
+  height: 330px !important;
+}
+.zz .viewAll{
+  float: right;
+  text-decoration: none;
+  position: absolute;
+  color:#da5b21;
+  font-size: 16px;
+  z-index: 1000;
+  bottom:350px;
+  right: 100px;
+}
+.zz .caruselHeader{
+  float: left;
+  font-size: 21px;
+  /* padding-bottom: 20px; */
+  bottom:350px;
+  position: absolute;
+  left: 100px;
+  color: #fff;
+  z-index: 1000;
+
+}
+.clear{
+  clear:both;
+}
+.posAbs{
+  position: relative;
+  z-index: 100;
+}
+.carusel-Item{
+  /* height: 160px; */
+  margin: 0 80px;
+}
+.carusel-Item img{
+  width: 100%;
+}
+.carusel-Item span{
+  font-size: 12px;
+  color: #fff;
+  padding: 7px 5px 0 0;
+}
+.iconClock{
+  font-size: 14px !important;
+  padding: 2px 4px 0 0 !important;
+}
+.sliderInfo{
+  display: block !important;
+  text-decoration: none;
+  margin: 10px 0;
+}
+.sliderInfo p{
+  font-size: 15px;
+  color: #fff;
+  transition: 0.5s;
+}
+.sliderInfo p:hover{
+  color: #D25215;
+}
+.ccc{
+  background-image: url('../images/lt-video-bg.jpg');
+  padding: 70px 0;
+  position: relative;
+  z-index: 10;
+}
+.bg-black{
+  top: 0;
+  background-color: rgba(0,0,0,0.7);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 20;
+}
+.qq{
+  z-index: 500;
+}
+@media only screen and (max-width: 768px){
+  .playIcon{
+    font-size: 29px !important;
+
+  }
+  .PlayA{
+    top:20px !important;
+  }
+}

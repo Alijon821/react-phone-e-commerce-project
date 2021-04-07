@@ -1,0 +1,125 @@
+.first_page img{
+    width: 100%;
+   }
+   .second_page img{
+     width: 100%;
+    }
+   .first_page{
+     float:left;
+     width: 50%;
+     padding: 0 13px;
+     margin-bottom: 50px;
+     z-index: 3333;
+   }
+   
+   .fitness-area {
+     padding-bottom: 85px;
+   }
+   
+   .ft-slider-area {
+     margin-top: 55px;
+     overflow: hidden;
+   }
+   
+   .Slider-Item {
+     position: relative;
+     overflow: hidden;
+   }
+   
+   .Slider-Item:before{
+     content: '';
+     position: absolute;
+     left: 0;
+     top: 0;
+     height: 100%;
+     width: 100%;
+     background: rgba(0,0,0,0.4);
+     transition: all 0.8s ease 0s;
+   }
+   .Slider-Item:hover::before{
+     background: rgba(0,0,0,0.5) !important;
+   }
+   
+   .Slider-Item img {
+     max-width: 100%;
+   }
+   
+   .Text_slider {
+     position: absolute;
+     left: 29px;
+     bottom: -26px;
+     transition: all 0.3s ease 0s;
+   }
+   
+   .Slider-Item:hover .Text_slider{
+     position: absolute;
+     left: 29px ;
+     bottom: 18px;
+   }
+   
+   .Text_slider a.sl-post-title {
+     font-size: 16px;
+     color: #ffffff;
+     font-weight: 700;
+     letter-spacing: 0.02em;
+     line-height: 23px;
+     display: inline-block;
+     margin: 20px 0px 10px;
+   }
+   
+   .Text_slider .meta-tag-area {
+     background: transparent;
+     padding-left: 0;
+     margin-top: 0;
+     height: 31px;
+     line-height: 31px;
+     opacity: 0;
+     transition: all 1s ease 0s;
+   }
+   
+   .Slider-Item:hover .Text_slider .meta-tag-area {
+     opacity: 1;
+   }
+   .sl-post-cat{
+     background-color: #db642c;
+     color: #ffffff;
+     font-weight: 700;
+     font-size: 16px;
+     padding: 2px 15px 4px 15px;
+     transition: 0.4s;
+   }
+   .sl-post-cat:hover{
+     background-color: #D25215;
+     color:#fff
+   }
+   
+   .sl-post-title{
+     text-decoration: none;
+    color: #D25215;
+   }
+   .ft-header{
+     margin: 50px 0;
+     font-size: 17px;
+     color: #444;
+     border-left: 4px #D25215 solid;
+     border-right: 4px #D25215 solid;
+     border-top: solid 1px rgb(235, 233, 233);
+     border-bottom: solid 1px rgb(235, 233, 233);
+     padding: 5px 10px;
+   }
+   .meta-tag-area span{
+     color:#ffffff;
+   }
+   @media only screen and (max-width: 768px){
+     .first_page{
+       width: 100%;
+       margin: 10px 0;
+     }
+     .second_page{
+       width: 100%;
+       margin: 10px 0;
+     }
+   }
+   
+   
+   

@@ -1,0 +1,259 @@
+.error-area {
+  position: relative;
+  text-align: center;
+}
+.error-area::before {
+  background: #f26522 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  min-height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.error-bg {
+  /*background: rgba(0, 0, 0, 0) url("../img/bg-img/404.png") no-repeat fixed center top / 50% auto;*/
+  height: 100%;
+  left: 0;
+  margin: auto;
+  opacity: 0.1;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+.error-content {
+  padding: 176px 0 148px;
+}
+
+.error-area-bottom {
+  padding: 0 0 75px;
+}
+.error-area-bottom p, .error-area-bottom p a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-family: 'Raleway', sans-serif;
+}
+.error-area-bottom p a {
+  color: #353535!important;
+}
+.error-area-bottom p a:hover {
+  text-decoration: underline;
+}
+.errors h1 {
+  color: #fff;
+  font-size: 220px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 230px;
+  margin-bottom: 49px;
+}
+
+.errors h5 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;
+}
+.errors .please-try p {
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.errors .please-try a {
+  border: 5px solid #fff;
+  font-size: 9px;
+  height: 40px;
+  line-height: 16px;
+  border-radius: 36px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  padding: 8px 10px;
+  font-weight: 700;
+  margin-left: 11px;
+  display: inline-block;
+}
+
+.errors .error-search {
+  margin: 48px 0 0;
+}
+
+.errors .error-search .search-input {
+  background: #353535 none repeat scroll 0 0;
+  border: 2px solid #353535;
+  border-radius: 25px 0 0 25px;
+  color: #fff;
+  font-size: 14px;
+  height: 42px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 5px 8px;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  width: 315px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+.errors .error-search .search-input:focus {
+  border-color: #575757;
+}
+
+.errors .error-search .search-submit {
+  background: #575757 none repeat scroll 0 0;
+  border: 2px solid #575757;
+  border-radius: 0 25px 25px 0;
+  color: #fff;
+  font-size: 12px;
+  height: 42px;
+  letter-spacing: 0;
+  line-height: 29px;
+  margin-left: -6px;
+  padding: 5px 10px;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  width: 120px;
+}
+.errors .error-search .search-submit:hover {
+  background: transparent;
+}
+.errors .please-try {
+  margin: 29px 0 0;
+}
+.errors .please-try {
+  margin: 29px 0 0;
+}
+
+.errors .please-try p {
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 24px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.errors .please-try a {
+  border: 5px solid #fff;
+  font-size: 9px;
+  height: 40px;
+  line-height: 16px;
+  border-radius: 36px;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  padding: 8px 10px;
+  font-weight: 700;
+  margin-left: 11px;
+  display: inline-block;
+}
+.errors .error-search .search-input {
+  background: #353535 none repeat scroll 0 0;
+  border: 2px solid #353535;
+  border-radius: 25px 0 0 25px;
+  color: #fff;
+  font-size: 14px;
+  height: 42px;
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 5px 8px;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  width: 315px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+.errors .error-search .search-input:focus {
+  border-color: #575757;
+}
+.errors .error-search .search-submit {
+  background: #575757 none repeat scroll 0 0;
+  border: 2px solid #575757;
+  border-radius: 0 25px 25px 0;
+  color: #fff;
+  font-size: 12px;
+  height: 42px;
+  letter-spacing: 0;
+  line-height: 29px;
+  margin-left: -6px;
+  padding: 5px 10px;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  width: 120px;
+}
+
+.errors .error-search .search-submit:hover {
+  background: transparent;
+}
+
+@media only screen and (max-width: 767px) {
+  .error-area-bottom p, .error-area-bottom p a {
+    font-size: 15px;
+  }
+  .error-area-bottom p, .error-area-bottom p a {
+    font-size: 15px;
+  }
+  .error-area-bottom {
+    padding: 0 0 56px;
+  }
+  .error-content {
+    padding: 68px 0 65px;
+  }
+  .errors h1 {
+    font-size: 127px;
+    margin-bottom: 28px;
+  }
+  .errors h5 {
+    font-size: 15px;
+  }
+  .error-content {
+    padding: 68px 0 65px;
+  }
+  .errors .please-try p {
+    font-size: 15px;
+  }
+  .errors h1 {
+    font-size: 89px;
+    line-height: 93px;
+  }
+  .errors .please-try a {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+  .errors .error-search .search-input {
+    width: 152px;
+  }
+  .errors .error-search .search-submit {
+    width: 89px;
+  }
+  .errors .please-try p {
+    font-size: 15px;
+  }
+  .errors .please-try a {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+}

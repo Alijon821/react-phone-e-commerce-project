@@ -1,0 +1,132 @@
+
+.coment{
+    width: 70%;
+    margin: 3rem auto;
+}
+
+
+.coment h3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4a4a4a;
+    line-height: 23px;
+    text-align: center;
+}
+.coment h3 span{
+    margin-right: 8px;
+
+}
+
+.coment ul{
+    margin: 0;
+    list-style-type: none;
+    border-radius: 0.5rem;
+}
+
+h4.author {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0.2em;
+    line-height: 20px;
+    overflow: hidden;
+
+}
+h4.author  span{
+    float: right;
+
+    font-size: 11px;
+    color: #575757;
+    letter-spacing: 0.05em;
+}
+img.comment-img{
+
+    max-width: 100%;
+
+}
+p.coment-content{
+    font-size: 12px;
+    font-weight: 300;
+    color: #444444;
+    letter-spacing: 0.09em;
+    line-height: 18px;
+    margin-top: 2px;
+}
+.children{
+    margin-top: 1rem;
+}
+.children ul{
+    border: 1px solid #f6f6f6;
+}
+ul.children::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 56px;
+    width: 60px;
+    height: 1px;
+    background: #9c8156;
+}
+
+.comment-status-text{
+    margin-top: 2rem;
+    border: 1px solid #f6f6f6;
+
+}
+.comment-responsd{
+    padding: 96px 0px 50px;
+}
+.comment-responsd h4{
+    text-align: center;
+    color: #f26522;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    argin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.comment-responsd label{
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    color: #4a4a4a;
+    letter-spacing: 0.2em;
+    margin: 14px 0px 3px 8px;
+    font-style: italic;
+}
+
+.comment-responsd input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #d6d6d6;
+    border-radius: 12px;
+    padding-left: 15px;
+    color: #444;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: inherit;
+}
+.comment-responsd textarea{
+    width: 50rem;
+    height: 173px;
+    border: 1px solid #d6d6d6;
+    border-radius: 12px;
+    padding: 0px 10px 0px 15px;
+    color: #444;
+    font-size: 13px;
+}
+.cont-submit{
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 18px;
+    letter-spacing: 0.15em;
+    background: #f26522;
+    border: none;
+    padding: 9px 26px;
+    border-radius: 4px;
+    margin-top: 25px;
+    transition: all 0.3s ease 0s;
+}

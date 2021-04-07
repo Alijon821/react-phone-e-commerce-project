@@ -1,0 +1,62 @@
+.header{
+    width: 90%;
+    margin: 1rem auto;
+
+
+}
+.headerOne{
+    border-bottom: 1px solid black;
+
+}
+.header span{
+    margin-left: 1rem;
+}
+.header Col{
+    display: inline-block;
+}
+.icon{
+    display: inline-block;
+    width: 60%;
+    margin-bottom: 1rem;
+
+}
+.iconOne{
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 1rem;
+
+}
+
+
+
+.ImgTwo{
+    overflow: hidden;
+}
+@media  {
+
+}
+
+
+
+
+
+.images{
+    width: 100%;
+    margin: 1rem auto;
+}
+.photo{
+    width: 30%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.photo Col{
+    display: inline-block;
+}
+.photos{
+    width: 60%;
+
+    display: inline-block;
+    float: right;
+
+}

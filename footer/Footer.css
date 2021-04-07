@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    width: 100%;
+    background-image: url(https://www.omarimc.com/wp-content/uploads/2017/01/news-636978_960_720.jpg );
+    background-repeat: no-repeat;
+    background-size: 100% 530px;
+}
+.footer1{
+    width: 100%;
+    background-color: rgba(0,0,0,0.95);
+}
+.container{
+    padding-bottom: 50px;
+    width: 85%;
+    margin: 0 auto;
+}
+.news-update{
+    border-bottom: 1px solid #494b4f;
+}
+.news-update h1{
+    font-size: 37px;
+    margin-top: 10px;
+    font-weight: 700;
+    color: white;
+    transition: 0.5s;
+    display: inline-block;
+}
+.news-update h1:hover{
+    color: #F26522;
+    cursor: pointer;
+}
+.box{
+    width: 25%;
+    padding-right: 30px;
+}
+.box h2{
+    font-size: 25px !important;
+    margin: 30px 0px;
+    color: white;
+    font-weight: bold;
+}
+p{
+    font-size: 15px;
+    color: rgba(255,255,255,0.5);
+}
+.nnnn{
+    border-bottom: 1px solid #494b4f;
+}
+.box a p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255,255,255,0.85);
+    transition: 0.5s;
+}
+.box a p:hover{
+    color: #F26522;
+}
+span{
+    margin-right: 4px;
+}
+.clock{
+    font-size: 14px;
+}
+.span2{
+    margin-left: 20px;
+}
+.span3{
+    margin-left: 20px;
+}
+.a2{
+    margin-top: 20px;
+}
+.mmmm {
+    padding-left: 35px;
+    border-bottom: 1px solid #494b4f;
+    padding: 11px 0px;
+    cursor: pointer;
+}
+.mmmm:hover{
+    background-color: rgba(0,0,0,97);
+}
+.mmmm5{
+    border-bottom: 0px solid #494b4f!important;
+}
+.mmmm a{
+     color: rgba(255,255,255,0.65);
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+    margin-left: 40px;
+}
+.mmmm:hover  a{
+    color: #F26522;
+}
+.righticon1{
+    font-size: 12px;
+    left: 0px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+}
+.righticon2{
+    font-size: 12px;
+    float: right;
+    transform: translateX(-80px);
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.mmmm:hover .righticon1{
+    transform: translateX(30px);
+    opacity: 0;
+}
+.mmmm:hover .righticon2{
+    transform: translateX(0px);
+    opacity: 1;
+}
+.twitter{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #494b4f;
+    margin-bottom: 20px;
+}
+.twitter .twitter-icon{
+    width: 15%;
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+}
+.twitter-icon{
+    width: 15%;
+    font-size: 15px;
+    display: inline-block;
+    color: white;
+}
+a{
+    text-decoration: none !important;
+}
+.twitter-info{
+    width: 84%;
+    display: inline-block;
+}
+.twitter-info p{
+    font-size: 14px !important;
+}
+.twitter-info p span{
+    color: #F26522;
+}
+.twitter-info p .creative-span{
+    color: white;
+}
+.twitter-info p a{
+    color: white;
+    transition: 0.3s ease 0s;
+}
+.twitter-info p a:hover{
+    color: #F26522;
+}
+.footer-end{
+    width: 100%;
+    padding:25px 0px ;
+    background-color: rgba(0,0,0,0.98);
+}
+.footer-end center{
+    color:#F26522;
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px){
+    .box{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 992px) and (min-width: 600px){
+    .box{
+        width: 50%;
+    }
+}

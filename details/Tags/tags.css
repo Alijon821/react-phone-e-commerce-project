@@ -1,0 +1,118 @@
+.tags{
+
+    width: 90%;
+    margin: 3rem auto;
+}
+
+
+.teg-nav1{
+
+    width: 70%;
+    margin: 0 auto;
+
+}
+.teg-nav1 a{
+    display: inline-block;
+    padding: 0.5rem;
+    border: 1px solid lightgrey;
+    color: #f26522;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+
+}
+
+.teg-nav1 a:hover{
+    border: 1px solid #f26522;;
+}
+.pasture{
+    margin: 1rem 1rem 1rem 0;
+}
+.blg-nav-text a.nav-link{
+    border: none;
+    display: inline-block;
+    margin: 1rem 0;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f26522;
+    letter-spacing: 0.08em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+
+}
+.blg-nav-text a {
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0.02em;
+    line-height: 22px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.blg-nav-text a:hover{
+    border: none;
+    color: #f26522;
+}
+.blg-nav-text a:last-child:hover{
+    color: #f26522;
+    transition: 500ms;
+}
+
+.facebook{
+    width: 30px;
+    margin-bottom: 0.5rem;
+}
+.total-like{
+    position: absolute;
+    right: -36px;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    padding: 0px 2px;
+    line-height: 18px;
+}
+span.total-like::before {
+    content: '';
+    left: -4px;
+    top: 6px;
+    height: 6px;
+    width: 6px;
+    border: 1px solid #000000;
+    position: absolute;
+    transform: rotate(-45deg);
+    z-index: 1;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    background: white;
+}
+a.nav-link{
+    border: none;
+    display: inline-block;
+    margin: 1rem 0;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #f26522;
+    letter-spacing: 0.08em;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+
+}
+a.nav-link:hover{
+    border: none;
+}
+
+a.bg  {
+    font-size: 22px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 0.02em;
+    line-height: 22px;
+    display: inline-block;
+    border: none;
+}
+a.bg:hover{
+    border: none;
+    color: #f26522;
+}
